@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Phoncomp inventory</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer type="text/javascript" src="index.js"></script>
+  </head>
+  <body onload="blink()">
+    <table id="table" border="1">
+      <tr>
+        <th>Goods</th>
+        <th>Price</th>
+        <th>Total Q</th>
+        <th>P Quantity</th>
+        <th>P Price</th>
+        
+      </tr>
+
+      <tr>
+        <td><img class="im" id="mg1" src="images/phone.jpg" alt="phone">Phone</td>
+        <td id="pp">#20000</td>
+        <td id="phoneq">10</td>
+        <td><input id="pha" placeholder="type here" type="number"></td>
+        <td id="ap"></td>
+        
+      </tr>
+
+      <tr>
+        <td><img class="im" id="mg2" src="images/laptop.png" alt="laptop">Laptop</td>
+        <td id="lp">#50000</td>
+        <td id="laptopq">10</td>
+        <td><input id="laa" placeholder="type here" type="number"></td>
+        <td id="al"></td>
+        
+      </tr>
+
+      <tr>
+        <td><img class="im" id="mg3"  src="images/tab.jpg" alt="">Tablets</td>
+        <td id="tp">#40000</td>
+        <td id="tabletq">5</td>
+        <td><input id="taa" placeholder="type here" type="number"></td>
+        <td id="at"></td>
+        
+      </tr>
+
+      <tr>
+        <td><img id="mg4" src="images/tv.jpg" alt="">Tv</td>
+        <td id="tvp">#50000</td>
+        <td id="tvq">8</td>
+        <td><input id="tva" placeholder="type here" type="number"></td>
+        <td id="atv"></td>
+        
+      </tr>
+
+      <tr class="bt">
+            <td><button id="btn" type="button">Print</button></td>
+            <td  colspan="2">Total</td>
+          
+            <td id="totq"></td>
+            <td id="tota"></td>
+           
+           
+            
+          </tr>
+
+    </table>
+
+
+    <div id="display">PREVIEW HERE</div>
+  </body>
+</html>
